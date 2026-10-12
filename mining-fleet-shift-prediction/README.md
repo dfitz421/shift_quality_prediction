@@ -1,8 +1,8 @@
 # Mining Fleet Shift Prediction
 
-This is a small personal data science project I worked on using Python and scikit-learn. The idea was to see whether timing and fleet-operation data could be used to predict whether a mining shift was relatively good, average, or bad.
+This is a small personal data science project I worked on using Python and scikit-learn. The idea was to see whether timing and randomly generated fleet-operation data could be used to predict whether a mining shift was relatively good, average, or bad.
 
-The original dataset had **500 shifts and 25 operational fields**. I am not including the original source file here, so I added `sample_shift_data.csv`, a synthetic example with the same column structure and similar ranges. It is there mainly so the code is readable and can be run without the original data.
+The original dataset was larger, but I am not including the original source file here, so I added `sample_shift_data.csv`, a synthetic example with the same column structure and similar ranges. It is there mainly so the code is readable and can be run without the original data.
 
 Some of the fields include:
 
@@ -24,7 +24,7 @@ I defined the main performance measure as:
 Productivity = Production / Truck Available Hours
 ```
 
-Since there were no given thresholds for what counted as a good or bad shift, I split productivity into thirds:
+I split productivity into thirds:
 
 ```text
 bottom 33%  -> bad
