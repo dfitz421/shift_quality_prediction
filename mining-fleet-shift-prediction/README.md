@@ -2,7 +2,7 @@
 
 This is a small personal data science project I worked on using Python and scikit-learn. The idea was to see whether timing and randomly generated fleet-operation data could be used to predict whether a mining shift was relatively good, average, or bad.
 
-The original dataset was larger, but I am not including the original source file here, so I added `sample_shift_data.csv`, a synthetic example with the same column structure and similar ranges. It is there mainly so the code is readable and can be run without the original data.
+The original dataset was larger, but I am not including the original source file here, so I added `sample_shift_data.csv`, an example with the same column structure and similar ranges. It is there mainly so the code is readable and can be run without the original data.
 
 Some of the fields include:
 
